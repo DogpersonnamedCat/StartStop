@@ -1,0 +1,25 @@
+body{
+    background-color: #D1EEEE;
+}
+
+h1{
+    text-align: center;
+    font-size: 75px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #008080;
+}
+p{
+    
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #008080;
+}
+
+#controlls{
+
+background-color: #00688B;
+}
+
+#laps{
+    background-color: #60AFFE;
+}
