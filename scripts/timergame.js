@@ -1,5 +1,3 @@
-
-
 const ss = document.getElementById('controlls');
 
 [].forEach.call(ss, function (s) {
