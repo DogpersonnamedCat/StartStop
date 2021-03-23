@@ -1,5 +1,6 @@
 let counter = document.getElementById("counter");
 let goal = document.getElementById("goal");
+// 0 is attract mode, 1 is play mode
 let gamingStatus = 0;
 let winLoseMessage = document.getElementById("winLose");
 let rt;
@@ -87,9 +88,9 @@ function checkWinCondition() {
 }
 
 function resetGame(state, pTime, cTime, message) {
-  state.innerHTML = 0;
+  state = 0;
   pTime.innerHTML = "0";
   cTime.innerHTML = 0;
   message.innerHTML = "Press Start to Play!";
   return state, pTime, cTime, message;
-}
+};
